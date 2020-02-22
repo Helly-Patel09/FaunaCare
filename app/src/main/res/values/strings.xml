@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Fauna Care</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home">Home</string>
+    <string name="type">Type</string>
+    <string-array name="typearray">
+        <item>Bird</item>
+        <item>Animal</item>
+    </string-array>
+    <string name="title_activity_faunas_in_need">Faunas In Need</string>
+    <string name="title_activity_admin">Admin</string>
+    <string name="email_regx">^[\\w-\\+]+(\\.[\\w]+)*@[\\w-]+(\\.[\\w]+)*(\\.[a-z]{2,})$</string>
+    <string name="title_activity_all_vet">AllVet</string>
+    <string name="title_activity_vet_info">VetInfo</string>
+    <string name="title_activity_tips">Tips</string>
+    <string name="title_activity_vet_profile">My Profile</string>
+    <string name="title_activity_vol_profile">My Profile</string>
+    <string name="title_activity_finder_profile">FinderProfile</string>
+</resources>

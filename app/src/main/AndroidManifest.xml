@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vahapps.faunacare">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:name=".UserType"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+       <!-- <receiver
+            android:name=".MyBroadcastReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.wifi.STATE_CHANGE" />
+                <action android:name="android.net.wifi.supplicant.CONNECTION_CHANGE" />
+            </intent-filter>
+        </receiver>-->
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name=".Register" />
+        <activity android:name=".RegFinder" />
+        <activity android:name=".RegVol" />
+        <activity android:name=".RegVet" />
+        <activity
+            android:name=".UploadFaunaDetails"
+            android:label="Upload Fauna Details"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name=".ImageCapture" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChooseVol"
+            android:label="Fauna Details"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".FaunasInNeed"
+            android:label="@string/title_activity_faunas_in_need"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ChooseNearestVet" />
+        <activity
+            android:name=".Admin"
+            android:label="@string/title_activity_admin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/AppTheme.SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBHD0S-3MJpT1nKOtOd7CL26MRtsgRz6Nw" />
+
+        <service android:name=".ListenOrder" />
+
+        <activity android:name=".MapDemo" />
+        <activity
+            android:name=".AllVet"
+            android:label="@string/title_activity_all_vet"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VetInfo"
+            android:label="@string/title_activity_vet_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tips"
+            android:label="@string/title_activity_tips"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".FaunaLocation" />
+        <activity android:name=".GvcEntry" />
+        <activity
+            android:name=".VetProfile"
+            android:label="@string/title_activity_vet_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VolProfile"
+            android:label="@string/title_activity_vol_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FinderProfile"
+            android:label="@string/title_activity_finder_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".UploadTreatedPic"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "46324890402",
+    "firebase_url": "https://fauna-care.firebaseio.com",
+    "project_id": "fauna-care",
+    "storage_bucket": "fauna-care.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46324890402:android:2e329cb5c90556e6",
+        "android_client_info": {
+          "package_name": "com.vahapps.faunacare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46324890402-la773ju569nagbgh8v2nql1n98funvt0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vahapps.faunacare",
+            "certificate_hash": "24aed63a9b61e58dbba9d2a5a53d62bd7ab8d226"
+          }
+        },
+        {
+          "client_id": "46324890402-t9bi14j7bl0po436dtvs0fgvkgo2bqvp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8rKi4rRLDTYEE4puZMZv0RhcwQV5D1nE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "46324890402-t9bi14j7bl0po436dtvs0fgvkgo2bqvp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

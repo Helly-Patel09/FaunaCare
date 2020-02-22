@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/place_autocomplete_separator_start"
+    android:orientation="vertical"
+    android:padding="@dimen/fab_margin">
+
+    <!--<TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/place_autocomplete_prediction_primary_text"
+        android:gravity="center_horizontal"
+        android:text="Register as"
+        android:textSize="20sp" />-->
+
+    <Button
+        android:id="@+id/btnFinder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/border_button_login"
+        android:text="Finder / User Registration"
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed" />
+
+    <TextView
+        android:id="@+id/txtregvol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:text="Register as Volunterer? Click here" />
+
+    <TextView
+        android:id="@+id/txtregvet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Register as Vet? Click here" />
+    <!--<Button
+        android:id="@+id/btnVol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/place_autocomplete_prediction_primary_text"
+        android:text="Volunteer" />
+
+    <Button
+        android:id="@+id/btnVet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/place_autocomplete_prediction_primary_text"
+        android:text="Vet" />-->
+
+</LinearLayout>
